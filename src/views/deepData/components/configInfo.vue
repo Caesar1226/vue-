@@ -1,24 +1,20 @@
 <template>
     <div class="content">
-        <div v-for="(item, index) in widgetData" :key="index">
-            widgetData.name:{{ item.name }}
-            <h1>第三层</h1>
-            <dataInfo :data-info="item.dataInfo" />
-            <configInfo :config-info="item.configInfo" />
-        </div>
+        <h1>第四层</h1>
+        <div>widgetData.configInfo.el:{{ configInfo.el }}</div>
+        <dataPanel :data-panel="configInfo.dataPanel" />
     </div>
 </template>
 
 <script>
-    import dataInfo from './dataInfo.vue'
-    import configInfo from './configInfo.vue'
+    import dataPanel from './dataPanel.vue'
     export default {
-        components: { dataInfo, configInfo },
+        components: { dataPanel },
         props: {
-            widgetData: {
-                type: Array,
+            configInfo: {
+                type: Object,
                 default: function() {
-                    return []
+                    return {}
                 },
             },
         },

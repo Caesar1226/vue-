@@ -94,19 +94,21 @@
         methods: {
             doClick() {
                 this.msg = {
-                    designName: '我的设计change',
+                    designName: '我的设计===================',
                     widgetData: [
                         {
                             id: 'widget_1639551751550',
                             order: 1,
-                            name: '工作表1change',
+                            name: '工作表1===================',
                             dataInfo: {
                                 dataId: 'T113769',
                                 dataType: '5',
-                                dataName: '直投运维监控日志表change',
+                                dataName:
+                                    '直投运维监控日志表===================',
                             },
                             configInfo: {
-                                el: 'container_1639551751550',
+                                el:
+                                    'container_1639551751550===================',
                                 chartType: 'dts_default',
                                 chartChild: 'normal',
                                 mapType: '',
@@ -117,7 +119,8 @@
                                 dataPanel: {
                                     dimData: [
                                         {
-                                            fieldName: 'log_id',
+                                            fieldName:
+                                                'log_id===================',
                                             columnLength: 40,
                                             caliberId: '',
                                             kpiTag: '0',
