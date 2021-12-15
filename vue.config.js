@@ -11,14 +11,14 @@ module.exports = {
                 '@': path.resolve('src'),
             },
         },
-        module: {
-            rules: [
-                {
-                    test: /\.js$/,
-                    include: path.resolve('src'),
-                    use: ['cache-loader', 'thread-loader', 'babel-loader'],
-                },
-            ],
-        },
+        // module: {
+        //     rules: [
+        //         {
+        //             test: /\.js$/,
+        //             include: path.resolve('src'),
+        //             use: ['cache-loader', 'thread-loader', 'babel-loader'],
+        //         },
+        //     ],
+        // },
     },
 }

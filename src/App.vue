@@ -1,12 +1,20 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">$attrs|$listeners</router-link>
-      <router-link to="/about">测试表格多选</router-link>
-      <router-link to="/webWorker">webWorker</router-link>
-      <router-link to="/image">图片压缩测试</router-link>
+      <router-link to="/">
+        $attrs|$listeners
+      </router-link>
+      <router-link to="/about">
+        测试表格多选
+      </router-link>
+      <router-link to="/deepData">
+        深层数据
+      </router-link></router-link></router-link>
+      <router-link to="/image">
+        图片压缩测试
+      </router-link>
     </div>
-    <router-view></router-view>
+    <router-view />
   </div>
 </template>
 
